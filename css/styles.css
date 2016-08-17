@@ -42,6 +42,7 @@ body {
 	text-align: center;
 }
 
+
 #contact {
 	background-color: #F7E581;
 
@@ -174,16 +175,29 @@ h2 {
 	background-color: grey;
 }
 
-.circle-text {
+.circle .circle-text {
 	left: 20px;
-	margin-top: 20px;
+	padding-top: 65px;
 }
 
 #work-c {
 	padding-top: 110px;
+}
+
+#pj,
+#zug {
+	background-color: black;
+	color: white;
+	font-family: "Source Sans Pro";
+	letter-spacing: .8px;
 	margin: 0 auto;
 }
 
-#pj {
-	background-color: black;
+#blog,
+#pf {
+	background-color: white;
+	color: black;
+	font-family: "Source Sans Pro";
+	letter-spacing: .8px;
+	margin: 0 auto;
 }
