@@ -11,4 +11,21 @@ $(document).ready(function(){
        }
    });
    // $(document).trigger('scroll')
+
+   $("#pj, #zug").mouseenter(function() {
+    $(this).css('background-color', 'grey'),
+    $(this).css('color', 'black');
+  }).mouseleave(function(){
+    $(this).css('background-color', 'black'),
+    $(this).css('color', 'white')
+  });
+
+   $("#pf, #blog").mouseenter(function() {
+    $(this).css('background-color', 'grey'),
+    $(this).css('color', 'white');
+  }).mouseleave(function(){
+    $(this).css('background-color', 'white'),
+    $(this).css('color', 'black')
+  });
+
 });
