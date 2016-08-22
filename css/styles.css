@@ -1,74 +1,12 @@
+/*html*/
 body {
 	background-color: #81F7AA;
-}
-
-.navbar {
-	background-color: transparent;
-	border: none;
-}
-
-.nav {
-	color: white;
-	text-transform: uppercase;
-	letter-spacing: 1.4px;
-	font-family: Quicksand;
-	font-weight: bold;
-	
-}
-
-.navbar-inverse .navbar-nav>.active>a, 
-.navbar-inverse .navbar-nav>.active>a:focus, 
-.navbar-inverse .navbar-nav>.active>a:hover {
-	background-color: transparent;
-	color: white;
-}
-
-#home {
-	background-color: #81F7AA;
-	margin-top: 50px;
-}
-
-#about {
-	background-color: #8193F7;
-
-
-}
-
-
-#work {
-	background-color: #F781CE;
-	padding-bottom: 350px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-
-#contact {
-	background-color: #F7E581;
-
-}
-
-
-#thanh {
-	padding-top: 40px;
-	padding-bottom: 300px;
-	text-align: center;
-}
-
-.hello {
-	padding-bottom: 400px;
-}
-
-
-footer {
-	background-color: #F7E581;
-	bottom: 0;
-	text-align: center;
 }
 
 p {
 	font-family: "Source Sans Pro";
 	letter-spacing: .8px;
+	font-size: 1.3em;
 }
 
 h1 {
@@ -82,21 +20,145 @@ h1 {
 h2 {
 	font-family: "Source Sans Pro";
 	letter-spacing: .8px;
-	font-size: 2em;
+	font-size: 1.8em;	
 }
 
-.skills {
-	text-align: left;
-	padding-bottom: 220px;
-
+/*nav*/
+.navbar {
+	background-color: transparent;
+	border: none;
 }
 
-.skills li {
-	margin-left: 200px;
+.nav {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	font-family: Quicksand;
+	font-weight: bold;
 }
 
-#web {
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color: white;
+}
+/*home*/
+
+
+#home {
+	background-color: #81F7AA;
+	margin-top: 50px;
+}
+
+#thanh {
+	padding-top: 40px;
+	padding-bottom: 300px;
+	text-align: center;
+}
+
+
+/*about*/
+
+#about {
+	background-color: #8193F7;
+}
+
+#about-div {
+	width: 40%;
 	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 200px;
+}
+
+#web, #marketing {
+	margin: 0 auto;
+}
+
+#web h2, ul li, 
+#marketing h2, ul li {
+	text-align: left;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 140px;
+}
+
+.headshot {
+	text-align: center;
+}
+
+#my-headshot {
+	margin-top: 140px;
+}
+
+#web,
+#marketing {
+	padding-top: 50px;
+	letter-spacing: .8px;
+}
+
+#web h2, #marketing h2 {
+	text-align: center;
+}
+
+#web ul, #marketing ul {
+	list-style-type: none;
+}
+
+.about-div {
+	width: 70%;
+	margin: 0 auto;
+	
+}
+
+/*work*/
+
+#work {
+	background-color: #F781CE;
+	padding-bottom: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	background-color: grey;
+}
+
+.circle .circle-text {
+	left: 20px;
+	padding-top: 60px;
+}
+
+#work-c {
+	padding-top: 110px;
+}
+
+#pj,
+#chat {
+	background-color: black;
+	color: white;
+	font-family: "Source Sans Pro";
+	letter-spacing: .8px;
+	margin: 0 auto;
+}
+
+#zug,
+#pf {
+	background-color: white;
+	color: black;
+	font-family: "Source Sans Pro";
+	letter-spacing: .8px;
+	margin: 0 auto;
+}
+/*contact*/
+
+#contact {
+	background-color: #F7E581;
 }
 
 #contact-form {
@@ -111,6 +173,27 @@ h2 {
 	border: none;
 	font-family: "Source Sans Pro";
 	letter-spacing: .8px;
+}
+
+#submit-button {
+	border: 1px solid white;
+	background-color: #F7E581;
+	font-family: "Source Sans Pro";
+	margin-bottom: 80px;
+	letter-spacing: .8px;
+}
+
+#submit-button:hover {
+	background-color: white;
+	color: grey;
+
+}
+
+/*footer*/
+footer {
+	background-color: #F7E581;
+	bottom: 0;
+	text-align: center;
 }
 
 .social {
@@ -135,69 +218,29 @@ h2 {
 	color: white;
 }
 
-#submit-button {
-	border: 1px solid white;
-	background-color: #F7E581;
-	font-family: "Source Sans Pro";
-	margin-bottom: 80px;
-	letter-spacing: .8px;
-}
-
-#submit-button:hover {
-	background-color: white;
-	color: grey;
-
-}
-
-#web,
-#marketing {
-	text-align: center;
-	padding-top: 50px;
-	letter-spacing: .8px;
-}
-.img-circle {
-    border-radius: 50%;
-    width: 140px;
-}
-
-.headshot {
-	text-align: center;
-}
-
-#my-headshot {
-	margin-top: 140px;
-}
-
-.circle {
-	border-radius: 50%;
-	width: 180px;
-	height: 180px;
-	background-color: grey;
-}
-
-.circle .circle-text {
-	left: 20px;
-	padding-top: 65px;
-}
-
-#work-c {
-	padding-top: 110px;
-}
-
-#pj,
-#zug {
-	background-color: black;
-	color: white;
-	font-family: "Source Sans Pro";
-	letter-spacing: .8px;
-	margin: 0 auto;
-}
-
-#blog,
-#pf {
-	background-color: white;
-	color: black;
-	font-family: "Source Sans Pro";
-	letter-spacing: .8px;
-	margin: 0 auto;
-}
+/*media*/
+@media (max-width: 995px) {
+  #pj, #pf {
+  	margin-bottom: 60px;
+  }
+  #web, #marketing h2 {
+  	text-align: center;
+  }
+  #chat {
+  	color: black;
+  	background-color: white;
+  }
+  #zug {
+  	color: white;
+  	background-color: black;
+  }
+  #work {
+	padding-bottom: 150px;
+  }
+  #about-div {
+  	padding-bottom: 100px;
+  }
+  #thanh {
+  	padding-bottom: 200px;
+  }
+ }
