@@ -1,6 +1,8 @@
 /*html*/
-body {
+body, html {
 	background-color: #81F7AA;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 p {
@@ -57,7 +59,18 @@ h2 {
 	text-align: center;
 }
 
+.img-circle {
+    border-radius: 50%;
+    width: 140px;
+}
 
+.headshot {
+	text-align: center;
+}
+
+#my-headshot {
+	margin-top: 140px;
+}
 /*about*/
 
 #about {
@@ -80,19 +93,6 @@ h2 {
 	text-align: left;
 }
 
-.img-circle {
-    border-radius: 50%;
-    width: 140px;
-}
-
-.headshot {
-	text-align: center;
-}
-
-#my-headshot {
-	margin-top: 140px;
-}
-
 #web,
 #marketing {
 	padding-top: 50px;
@@ -105,12 +105,6 @@ h2 {
 
 #web ul, #marketing ul {
 	list-style-type: none;
-}
-
-.about-div {
-	width: 70%;
-	margin: 0 auto;
-	
 }
 
 /*work*/
@@ -219,7 +213,9 @@ footer {
 }
 
 /*media*/
-@media (max-width: 995px) {
+@media only screen 
+and (min-width: 460px)
+and (max-width: 995px) {
   #pj, #pf {
   	margin-bottom: 60px;
   }
@@ -242,5 +238,34 @@ footer {
   }
   #thanh {
   	padding-bottom: 200px;
+  }
+}
+
+@media only screen
+and (max-width : 459px) {
+
+  #contact-form,
+  #about-div {
+	width: 80%;
+}
+  #pj, #pf,
+  #chat, #zug {
+  	margin-bottom: 30px;
+  }
+
+  #work {
+  	padding-bottom: 75px;
+  }
+
+  #about-div {
+  	padding-bottom: 50px;
+  }
+  
+  #thanh {
+  	padding-bottom: 100px;
+  }
+
+  .heading {
+  	font-size: 4em;
   }
  }
