@@ -133,7 +133,7 @@ h2 {
 }
 
 #pj,
-#chat {
+#zug {
 	background-color: black;
 	color: white;
 	font-family: "Source Sans Pro";
@@ -141,7 +141,6 @@ h2 {
 	margin: 0 auto;
 }
 
-#zug,
 #pf {
 	background-color: white;
 	color: black;
