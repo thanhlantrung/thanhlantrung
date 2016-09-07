@@ -20,7 +20,7 @@ $(document).ready(function(){
     $(this).css('color', 'white')
   });
 
-   $("#pf, #blog").mouseenter(function() {
+   $("#pf").mouseenter(function() {
     $(this).css('background-color', 'grey'),
     $(this).css('color', 'white');
   }).mouseleave(function(){
@@ -28,4 +28,19 @@ $(document).ready(function(){
     $(this).css('color', 'black')
   });
 
+  //$('html,body').css('cursor','crosshair');
+
+$("#zug").click(function() {
+    window.open("http://www.zugvoegelblog.com");
+});
+
+$("#chat").click(function() {
+    window.open("http://www.google.com");
+});
+$("#pf").click(function() {
+    window.open("http://thanhlantrung.bitballoon.com");
+});
+$("#pj").click(function() {
+    window.open("http://thepyjamashop.herokuapp.com");
+});
 });
