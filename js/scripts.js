@@ -38,7 +38,7 @@ $("#chat").click(function() {
     window.open("http://www.google.com");
 });
 $("#pf").click(function() {
-    window.open("http://thanhlantrung.bitballoon.com");
+    window.open("http://thanhsampleportfolio.bitballoon.com");
 });
 $("#pj").click(function() {
     window.open("http://thepyjamashop.herokuapp.com");
