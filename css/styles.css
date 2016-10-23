@@ -120,7 +120,7 @@ h2 {
 	border-radius: 50%;
 	width: 180px;
 	height: 180px;
-	background-color: grey;
+	background-color: white;
 }
 
 .circle .circle-text {
@@ -134,8 +134,8 @@ h2 {
 
 #pj,
 #zug {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	font-family: "Source Sans Pro";
 	letter-spacing: .8px;
 	margin: 0 auto;
