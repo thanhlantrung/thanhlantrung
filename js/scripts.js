@@ -12,23 +12,16 @@ $(document).ready(function(){
    });
    // $(document).trigger('scroll')
 
-   $("#pj, #zug").mouseenter(function() {
+   $("#pj, #zug, #pf").mouseenter(function() {
     $(this).css('background-color', 'black'),
-    $(this).css('color', 'white');
+    $(this).css('color', 'white'),
+    $(this).css('cursor', 'pointer');
   }).mouseleave(function(){
     $(this).css('background-color', 'white'),
     $(this).css('color', 'black')
   });
 
-   $("#pf").mouseenter(function() {
-    $(this).css('background-color', 'black'),
-    $(this).css('color', 'white');
-  }).mouseleave(function(){
-    $(this).css('background-color', 'white'),
-    $(this).css('color', 'black')
-  });
-
-  //$('html,body').css('cursor','crosshair');
+//$('html,body').css('cursor','crosshair');
 
 $("#zug").click(function() {
     window.open("http://www.zugvoegelblog.com");
