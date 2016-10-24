@@ -15,13 +15,13 @@ $(document).ready(function(){
    $("#pj, #zug, #pf").mouseenter(function() {
     $(this).css('background-color', 'black'),
     $(this).css('color', 'white'),
-    $(this).css('cursor', 'crosshair');
+    $(this).css('cursor', 'pointer');
   }).mouseleave(function(){
     $(this).css('background-color', 'white'),
     $(this).css('color', 'black')
   });
 
-//$('html,body').css('cursor','crosshair');
+$('html,body').css('cursor','crosshair');
 
 $("#zug").click(function() {
     window.open("http://www.zugvoegelblog.com");
