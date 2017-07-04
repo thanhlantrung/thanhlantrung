@@ -24,7 +24,7 @@ $(document).ready(function(){
 $('html,body').css('cursor','crosshair');
 
 $("#zug").click(function() {
-    window.open("http://www.zugvoegelblog.com");
+    window.open("http://zugvoegel.bitballoon.com");
 });
 
 $("#chat").click(function() {
